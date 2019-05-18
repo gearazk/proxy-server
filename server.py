@@ -135,6 +135,7 @@ class RequestHandler(SimpleHTTPServer.SimpleHTTPRequestHandler):
 
 
 # Class extend de ho tro chay server multi-thread
+# Day la thu vien ho tro natively cua ngon ngu Python3.7
 class ThreadedTCPServer(SocketServer.ThreadingMixIn, SocketServer.TCPServer):
     pass
 
